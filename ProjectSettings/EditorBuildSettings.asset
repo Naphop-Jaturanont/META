@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 0bdc2251efd355d45add28195d99d336
   - enabled: 1
     path: Assets/Scene/MINIGAME02.unity
-    guid: 99be210b0d654de46930e90a75bee99f
+    guid: 38485d3b5982ff04bb3b1ffe8d37f28d
   - enabled: 1
     path: Assets/Scene/MINIGAME03.unity
     guid: 320ff450b1a85314f921bb14ef3bbd44
