@@ -20,9 +20,9 @@ public class DetecColisions : MonoBehaviour
     {
         if (other.tag == "Block")
         {
-            Destroy(gameObject);
             ScoreManager.instance.AddPoint();
             Debug.Log("ADD Point");
+            Destroy(gameObject);
         }
 
         if (other.tag == "Finish")

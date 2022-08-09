@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3634012894083728178}
   m_Layer: 0
   m_Name: point
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cba7b8516402dfc4c94b2ed09bbee550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audio: {fileID: 0}
 --- !u!114 &3634012894083728178
 MonoBehaviour:
   m_ObjectHideFlags: 0
