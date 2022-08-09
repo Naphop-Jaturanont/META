@@ -36,4 +36,12 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void EndGameNodelay()
+    {
+        gameEnd = true;
+        Debug.Log("GameOver");
+        Invoke("Restart",1);
+    }
 }
+

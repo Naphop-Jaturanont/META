@@ -18,6 +18,7 @@ public class ison1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (button1 && button2 && button3 == true)
         {
             button4 = true;
@@ -38,12 +39,12 @@ public class ison1 : MonoBehaviour
 
     public void setbutton2()
     {
-        button1 = true;
+        button2 = true;
     }
 
     public void setbutton3()
     {
-        button1 = true;
+        button3 = true;
     }
 
     public void changegreen()
